@@ -7,7 +7,6 @@ https://github.com/aws/aws-cli
 
 The output is basically like this...
 
-<code>
 Sun Apr  7 16:04:15 UTC 2019<br>
 us-east-1 (N Virginia) 31 running instances<br>
 us-east-2 (Ohio) 0 running instances<br>
@@ -24,4 +23,3 @@ eu-west-2 (London) 0 running instances<br>
 eu-west-3 (Paris) 0 running instances<br>
 eu-north-1 (Stockholm) 0 running instances<br>
 sa-east-1 (São Paulo) 0 running instances<br>
-<code>
