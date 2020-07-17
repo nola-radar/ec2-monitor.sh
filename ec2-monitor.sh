@@ -44,6 +44,6 @@ echo "sa-east-1 (São Paulo) `aws ec2 describe-instances --region sa-east-1 | gr
 
 echo "af-south-1 (Africa- Cape Town) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
 
-echo "us-gov-east-1 (US-Gove-East) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
+echo "us-gov-east-1 (US-Gov-East) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
 
 echo "us-gov-west-1 (US-Gov-West) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
