@@ -18,7 +18,15 @@ echo "ap-southeast-2 (Sydney) `aws ec2 describe-instances --region ap-southeast-
 
 echo "ap-northeast-1 (Tokyo) `aws ec2 describe-instances --region ap-northeast-1 | grep 'running' | wc -l` running instances"
 
+echo "ap-northeast-2 (Seoul) `aws ec2 describe-instances --region ap-northeast-1 | grep 'running' | wc -l` running instances"
+
+echo "ap-northeast-3 (Osaka-Local) `aws ec2 describe-instances --region ap-northeast-1 | grep 'running' | wc -l` running instances"
+
 echo "ca-central-1 (Montreal) `aws ec2 describe-instances --region ca-central-1 | grep 'running' | wc -l` running instances"
+
+echo "cn-north-1 (Beijing) `aws ec2 describe-instances --region ca-central-1 | grep 'running' | wc -l` running instances"
+
+echo "cn-northwest-1 (China- Ningxia) `aws ec2 describe-instances --region ca-central-1 | grep 'running' | wc -l` running instances"
 
 echo "eu-central-1 (Franfurt) `aws ec2 describe-instances --region eu-central-1 | grep 'running' | wc -l` running instances"
 
@@ -30,4 +38,12 @@ echo "eu-west-3 (Paris) `aws ec2 describe-instances --region eu-west-3 | grep 'r
 
 echo "eu-north-1 (Stockholm) `aws ec2 describe-instances --region eu-north-1 | grep 'running' | wc -l` running instances"
 
+echo "eu-south-1 (Milan) `aws ec2 describe-instances --region eu-north-1 | grep 'running' | wc -l` running instances"
+
 echo "sa-east-1 (São Paulo) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
+
+echo "af-south-1 (Africa- Cape Town) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
+
+echo "us-gov-east-1 (US-Gov-East) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
+
+echo "us-gov-west-1 (US-Gov-West) `aws ec2 describe-instances --region sa-east-1 | grep 'running' | wc -l` running instances"
